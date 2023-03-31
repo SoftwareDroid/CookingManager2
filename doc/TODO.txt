@@ -1,0 +1,12 @@
+Bilder sollten unterveränderlich sein d.h am besten statt einer funktion ein Objekt hinterlgen welches mehere Merhtoden hat, welche augerufne werdne können
+
+-> get_text
+after_text_insert
+
+Editor_ Muss den Inhalt expotieren und impotieren können tags von Markup seperat als am besten zwei strings
+
+
+1. " : ' < > = ! ( ) | in tags und tag werten komplett verbieten
+
+2. Klammern in Suchanfragen einbauen
+

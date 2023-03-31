@@ -1,0 +1,7 @@
+Query 1: rating: > 2
+=> Invalid Query
+Sollte aber gehen da standartabfrage
+Mache ersten Teil Optional
+
+Query 2: "a" rating: < 2
+=> Crash

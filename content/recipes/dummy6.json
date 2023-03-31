@@ -1,0 +1,45 @@
+{
+    "body": {
+        "editor-state": [
+            "Screenshotfrom2019-07-1113-38-27.png",
+            [
+                [
+                    "img",
+                    0,
+                    36
+                ]
+            ]
+        ],
+        "properties-state": {
+            "author": "N.A.",
+            "cuisine": {
+                "african": false,
+                "america": false,
+                "asian": false,
+                "chinese": false,
+                "cuisine": false,
+                "european": false,
+                "indian": false,
+                "japanese": false,
+                "korean": false,
+                "mexican": false,
+                "thai": false,
+                "tibetan": false,
+                "western_asia": false
+            },
+            "duration": "1.0 h",
+            "name": "dummy6",
+            "need_grill": false,
+            "portions": 0.0,
+            "rating": 1.0,
+            "source": "N.A.",
+            "vegetarian": false
+        }
+    },
+    "header": {
+        "filename": "content/recipes/dummy6.json",
+        "format-version": "2",
+        "sha256_my_tags": "c7afe8df68fda0c416a6ed8ed35642f84c5caeb367ad77fa362ec7e67f6fafab",
+        "time": "2019-07-11 14:22"
+    }
+}

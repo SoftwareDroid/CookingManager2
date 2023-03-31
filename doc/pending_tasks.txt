@@ -1,0 +1,79 @@
+##TODO Liste
+
+### Intro
+
+Die ersten zwei Aufgaben, du auf jeden Fall für den Einstieg bearbeiten solltest, ist zuerst die *Projekteinrichtung* und danach am besten den Punkt *Analyse*. Die nachfolgenden Aufgaben sind im Prinzip frei wählbar.
+
+Aufgabenverteilung (Nur Empfehlungen)
+F = Felix oder Patrick
+P = Patrick
+
+**[F] Projekteinrichtung**
+Das Projekte sollte ausführbar sein. Benötigt wird:
+Python 3, Pip, pipenv und GTK für Python (hat C Abhänigkeiten)
+Alle anderen Abhänigkeiten sollten über *pipenv install* im Projektordner nachinstalliert werden (evenutell noch nicht vollständig).
+Zum Starten kann der Befehl *pipenv run python main.py* im Projektordner verwendet werden (oder über eine IDE). Fehlende Schritte bitte aufschreiben.
+
+Zusätzlich Empfohlen:
+- Git einrichten am besten mit SSH-Keys
+- eine Python IDE einrichten z. B. Pycharm
+
+**[F] Analyse**
+Was soll das Programm nach deinen Vorstellungen alles können (Anforderungsanalyse)?
+Änderungen bestehender Funkionalität?
+
+****
+
+**[F] Installer schreiben**
+Voraussetzung: Projekteinrichtung
+Das komplette Projekte sollte über ein Skript (oder Installer) installierbar sein (am besten für Linux oder Windows). Eventuell für jedes Betriebssystem ein eigenes Skript.
+
+
+
+**[F] GUI Design**
+Sich ein evenutell besseres Design der GUI überlegen.
+
+**[F] Richtext Import**
+Der Editor sollte das Kopieren von Bildern und z. B. fetter oder kursiver Schrift aus dem Webbrowser unterstützen.
+
+**[F] URL im Editor**
+Anklickbare URLs im Editor, welche beim Anklicken im Webbrowser oder noch besser gleich im Editor geladen werden.
+Siehe WebKitWebView https://webkitgtk.org/reference/webkit2gtk/stable/WebKitWebView.html Editable = False
+
+**[F] PDF Exporter**
+Das was der Editor anzeigt, sollte als PDF exportierbar sein. Alternative wäre HTML, finde aber PDF besser.
+
+**[F] Web-GUI**
+Die Anwendung sollte auch vom Webbrowser bedienbar sein (Möglicher Ansatz: GTK bietet dort schon Support an).
+
+
+**[F] Programmname**
+Sich einen sinnvollen Programmen überlegen.
+
+**[F] Testen**
+Die Anwendung mit richtigen Rezepten Testen ggf. Unit Tests in Python einbauen (z. B. mit https://docs.python.org/3/library/unittest.html).
+
+**[F] Open-Source Lizenz**
+Welche Open-Source Lizenzen ist für das Projekt geeignet. Dies sollten wir auf jeden Fall gemeinsam besprechen.
+
+**[Zusammen] Benutzerhandbuch bzw. Dokumentation**
+Ein Anleitung, wie die Anwendung zu bedienen ist für auch nicht Entwickler.
+
+
+****
+
+**[P] Tag-Editor einbauen**
+Tags sollten über den Anwendung änderbar sein ggf. auch neue hinzufügen.
+Mit GtkNotebook in mehre Pages aufteilen
+
+**[P] JSON-Exporter**
+(Eigentlich einfach aber ich brauche das bald)
+
+**[P] Code Aufräumen**
+Klassen und weitere Ordner hinzufügen.
+
+**[P] Suchanfragen sollten Klammern unterstützen**
+z. B. sowas sollte funktionieren: name: "Hallo" and (name: "a" or not rating: != 2)
+
+**[P] Suchanfragen sollten hierische Tags unterstüzten**
+Z. b. Vegetarisch ist eine Obermenge von Vegan. Wenn ich jetzt nach vegatarische Rezepten suche, sollten auch alle veganene angezeigt werden.
